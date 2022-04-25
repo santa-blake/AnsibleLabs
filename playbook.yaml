@@ -5,6 +5,6 @@
    connection: local
 
    tasks:
-     - name: Print debug message
-       debug:
-       msg: "{{text}}"
+   - name: Print debug message
+     debug:
+     msg: "{{text}}"
