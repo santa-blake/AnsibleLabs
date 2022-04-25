@@ -4,7 +4,7 @@
    hosts: localhost
    connection: local
 
- #  tasks:
- #  - name: "Print debug message"
- #    debug:
- #    msg: "{{text}}"
+   tasks:
+   - name: "Print debug message"
+     debug:
+     msg: "{{ text }}"
