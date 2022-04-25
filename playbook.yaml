@@ -7,4 +7,4 @@
    tasks:
      - name: Print debug message
        debug:
-       msg: "{{text}}
+       msg: "{{text}}"
