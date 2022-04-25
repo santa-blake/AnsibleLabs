@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         git branch: 'main', url: 'https://github.com/santa-blake/AnsibleLabs.git'
-        sh 'ansible-playbook playbook.yaml --extra-vars "text=$text"
+        sh 'ansible-playbook playbook.yaml --extra-vars "text=$text"'
       }
     }
   }
