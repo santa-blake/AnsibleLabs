@@ -1,10 +1,10 @@
 ---
 # Playbook in Ansible simple 
- - name: "This is test playbook"
+ - name: This is test playbook
    hosts: localhost
    connection: local
 
   # tasks:
-  # - name: "Print debug message"
+  # - name: Print debug message
   #   debug:
   #   msg: "{{ text }}"
